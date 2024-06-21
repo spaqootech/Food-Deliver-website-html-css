@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{cursor: pointer;}
+
+nav>a>img{
+    height: 30px;
+}
+@media (max-width:1050px) {
+    body{
+        width: 80%;}
+}
+@media (max-width:900px) {
+    body{
+        width: 90%;}
+}
+@media (max-width:750px) {
+    body{
+        width: 95%;
+}
+}

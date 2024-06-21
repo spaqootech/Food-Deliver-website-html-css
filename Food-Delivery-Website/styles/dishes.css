@@ -1,0 +1,123 @@
+.top-dishes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.grid>.item:hover{
+    box-shadow: 0px 0px 10px gainsboro;
+}
+    .grid>.item{
+    width: 250px;
+    box-shadow: 0px 0px 3px gainsboro;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+.grid>.item>div,
+.grid>.item>div>.food-img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid>.item>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+.price,
+.grid>.item>div>div>p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.price{
+    color: tomato;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.images{position: relative;}
+.stars{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width:1050px) {
+    
+}
+@media (max-width:900px) {
+    
+}
+@media (max-width:750px) {
+    .top-dishes{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 0px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .grid>.item:hover{
+        box-shadow: 0px 0px 10px gainsboro;
+    }
+        .grid>.item{
+        width: 200px;
+        box-shadow: 0px 0px 3px gainsboro;
+        padding: 10px;
+        border-radius: 20px 20px 0px 0px;
+        transition: 0.15s;
+        cursor: pointer;
+    }
+    .grid>.item>div,
+    .grid>.item>div>.food-img{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .grid>.item>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .price,
+    .grid>.item>div>div>p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .price{
+        color: tomato;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .images{position: relative;}
+    .stars{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+       
+}

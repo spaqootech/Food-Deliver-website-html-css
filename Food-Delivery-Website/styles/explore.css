@@ -1,0 +1,80 @@
+.explore-menu{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-menu>h1{
+    font-weight: 500;
+}
+.explore-menu>p{
+    width: 60%;
+}
+.explore-menu>.scroll-view>.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+}
+.scroll-view{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.scroll-view::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media (max-width:1050px) {
+    
+}
+@media (max-width:900px) {
+    
+}
+@media (max-width:750px) {
+    .explore-menu{
+        padding: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .explore-menu>h1{
+        font-weight: 500;
+    }
+    .explore-menu>p{
+        width: 90%;
+    }
+    .explore-menu>.scroll-view>.item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: gray;
+        cursor: pointer;
+    }
+    .scroll-view{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .scroll-view::-webkit-scrollbar{
+        display: none;
+    }
+    
+       
+}

@@ -1,0 +1,44 @@
+.mobile{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.mobile>h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+.mobile>div>img{
+    cursor: pointer;
+}
+
+
+@media (max-width:1050px) {
+    
+}
+@media (max-width:900px) {
+    
+}
+@media (max-width:750px) {
+    .mobile{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .mobile>h1{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .mobile>div>img{
+        cursor: pointer;
+        height: 50px;
+    }
+        
+}
